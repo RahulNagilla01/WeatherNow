@@ -25,7 +25,7 @@ if location:
                 f"&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code"
                 f"&hourly=pm10,pm2_5,carbon_monoxide,ozone"
             )
-            weather_response = requests.get(weather_url).json()
+            weatherresponse = requests.get(weather_url).json()
 
             current = weather_response.get("current", {})
             st.subheader(f"📍 Current Weather for {location}")
