@@ -5,7 +5,7 @@ import requests
 st.set_page_config(page_title="Weather Info", page_icon="⛅")
 
 #This is starting of the code
-st.title("🌍 Weather and Air Quality App")
+st.title("Weather and Air Quality App")
 
 location = st.text_input("Enter your location (City or Coordinates):")
 
